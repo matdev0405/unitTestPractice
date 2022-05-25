@@ -16,6 +16,7 @@
 		CEF9A75A283BBC4300B7429B /* unitTestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9A759283BBC4300B7429B /* unitTestPracticeTests.swift */; };
 		CEF9A764283BBC4300B7429B /* unitTestPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9A763283BBC4300B7429B /* unitTestPracticeUITests.swift */; };
 		CEF9A766283BBC4300B7429B /* unitTestPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9A765283BBC4300B7429B /* unitTestPracticeUITestsLaunchTests.swift */; };
+		CEF9A773283BDF3A00B7429B /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9A772283BDF3900B7429B /* APITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CEF9A75F283BBC4300B7429B /* unitTestPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unitTestPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF9A763283BBC4300B7429B /* unitTestPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unitTestPracticeUITests.swift; sourceTree = "<group>"; };
 		CEF9A765283BBC4300B7429B /* unitTestPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unitTestPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEF9A772283BDF3900B7429B /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		CEF9A758283BBC4300B7429B /* unitTestPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
+				CEF9A772283BDF3900B7429B /* APITests.swift */,
 				CEF9A759283BBC4300B7429B /* unitTestPracticeTests.swift */,
 			);
 			path = unitTestPracticeTests;
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF9A773283BDF3A00B7429B /* APITests.swift in Sources */,
 				CEF9A75A283BBC4300B7429B /* unitTestPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
